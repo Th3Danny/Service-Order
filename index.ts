@@ -3,7 +3,7 @@ import cors from "cors";
 import indexRouter from "./src/shared/infraestructure/indexRouter";
 
 const app = express();
-const PORT = process.env.PORT || "15672";
+const PORT = process.env.PORT || "3000";
 
 app.disable("x-powered-by");
 
